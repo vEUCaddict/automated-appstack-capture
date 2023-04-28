@@ -30,6 +30,7 @@ Below is a enumeration for the steps:
 	- Add packaging/capturing users to the built-in local administrators group.
 <br />
 <br />
+
 ### Tips & Remarks
 - VMware doesn't support AppStacks created this way... So if you have any findings, please try creating an AppStack manually before calling support, that a certain application doesn't work.
 - A friendly note, this setup works out for me, tested it with a lot of freeware applications in non-nested virtualization environment. The VM which I use for creating AppStacks was running on a Intel NUC 10 with ESXi 7.x on it. 
