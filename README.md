@@ -19,16 +19,15 @@ Below is a enumeration for the steps:
 - A best practice is to disable Anti-virus and Anti-malware software, disable the Windows Firewall and disable Microsoft/Windows Updates on the App Volumes Capture VM.
 - The App Volumes Capture VM must be domain joined, place the computer object in a specific OU with block group policy inheritance.
 - By default a Windows computer doesn't logon automatically anymore (unless you force too).
-<br />
-- Set some specific Active Directory Group Policies for: 
-	- Maximum machine account password age;
-	- Windows Remote Management service (WinRM) Startup Mode; 
-	- Windows Firewall rules for WinRM (just to be sure);
-	- Allow delegating fresh credentials;
-	- Allow remote server management through WinRM;
-	- Allow unencrypted traffic;
-	- Disallow WinRM from storing RunAs credentials;
-	- Windows AutoLogon registry keys;
+- Set some specific Active Directory Group Policies for: <br />
+	- Maximum machine account password age; <br />
+	- Windows Remote Management service (WinRM) Startup Mode;  <br />
+	- Windows Firewall rules for WinRM (just to be sure); <br />
+	- Allow delegating fresh credentials; <br />
+	- Allow remote server management through WinRM; <br />
+	- Allow unencrypted traffic; <br />
+	- Disallow WinRM from storing RunAs credentials; <br />
+	- Windows AutoLogon registry keys; <br />
 	- Add packaging/capturing users to the built-in local administrators group.
 <br />
 <br />
