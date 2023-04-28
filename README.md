@@ -37,6 +37,7 @@ Below is a enumeration for the steps:
 - For any questions or recommendations, please leave a message on GitHub/Blog/LinkedIn/Twitter.
 <br />
 <br />
+
 ### Commands to run the script
 Don't forget to edit the variables in the variable section to your environment needs.<br />
 Open a PowerShell window (not preferred running as administrator).<br />
