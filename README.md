@@ -1,8 +1,7 @@
 # FULLY AUTOMATED VMWARE APP VOLUMES APPSTACK CREATION
 
-A couple of years ago, I was running a project where I needed to appstack 150 plus applications. In that time VMware had not an automated way of creating the appstacks, so I was starting to analyze the process and created a PowerShell script for it. 
-In the recent versions VMware created some automation though, but I still received so now and then on the socials a request to share my script, that they watched my YouTube video from the VMware Code Connect session 2022 (https://youtu.be/NbERAIkky-s).<br />
-I would like to give some credits to community member Chris Twiest (he started with a basic script based on App Volumes 2.x) and my former employer ITQ for stimulating and give the time to create this.
+A couple of years ago, I was running a project where I needed to AppStack 150+ applications with VMware App Volumes. At that time VMware had not an automated way of creating the AppStacks, so I was starting to analyze the process and created a PowerShell script for it. In the recent versions, VMware created some automation though, but I still received so now and then on the socials a request to share my script, that they watched my YouTube video from the VMware Code Connect session 2022 (https://youtu.be/NbERAIkky-s).<br />
+I would like to give some credit to community member Chris Twiest (he started with a basic script based on App Volumes 2.x) and my former employer ITQ for stimulating and giving the time to create this.
 <br />
 <br />
 ## Before you begin with the script, there are some prerequisites!!!
